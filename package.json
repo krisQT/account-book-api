@@ -1,0 +1,31 @@
+{
+  "name": "account-book-api",
+  "version": "1.0.0",
+  "description": "account book api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisQT/account-book-api.git"
+  },
+  "keywords": [
+    "account",
+    "book"
+  ],
+  "author": "kris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krisQT/account-book-api/issues"
+  },
+  "homepage": "https://github.com/krisQT/account-book-api#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3",
+    "uuid": "^3.3.3"
+  }
+}
